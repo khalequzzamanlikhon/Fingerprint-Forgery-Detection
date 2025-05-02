@@ -10,8 +10,6 @@ This project performs fingerprint analysis using the [SOCOFing dataset](https://
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -49,29 +47,39 @@ The dataset should be placed in a directory (e.g., `data/socofing/`) with `Real/
 
 2. **Set Up a Virtual Environment (recommended)**
    ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-4. **Install Dependencies**: pip install -r requirements.txt
-5. **Prepare the Dataset**:
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+4. **Install Dependencies**:
+   ``` bash
+      pip install -r requirements.txt
+6. **Prepare the Dataset**:
 Download the SOCOFing dataset from Kaggle.
 Place it in data/socofing/ or update DATA_DIR in main.py to point to your dataset location.
-6. ** Run the full pipeline**: In the terminal run : python main.py . you can monitor the training progress using : tensorboard --logdir logs/runs
 
+8. ** Run the full pipeline**: In the terminal run
+   ``` bash
+   python main.py .
+you can monitor the training progress using 
+    ``` bash
+    
+    tensorboard --logdir logs/runs
 
-Contributing
+## Results
+
+## Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a feature branch (git checkout -b feature/your-feature).
-Commit changes (git commit -m "Add your feature").
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
+- Fork the repository.
+- Create a feature branch (git checkout -b feature/your-feature).
+- Commit changes (git commit -m "Add your feature").
+- Push to the branch (git push origin feature/your-feature).
+- Open a pull request.
 
-License
-This project is licensed under the MIT License. See the  file for details.
+## License
+This project is licensed under the MIT License. 
 
-Acknowledgements
-SOCOFing Dataset for providing fingerprint images.
-Ultralytics YOLO for the YOLOv11 implementation.
-Kaggle for providing the T4x2 GPU environment for training.
-Open-source libraries: OpenCV, scikit-image, Matplotlib, Seaborn, and TensorBoard.
+## Acknowledgements
+- SOCOFing Dataset for providing fingerprint images.
+- Ultralytics YOLO for the YOLOv11 implementation.
+- Kaggle for providing the T4x2 GPU environment for training.
+- Open-source libraries: OpenCV, scikit-image, Matplotlib, Seaborn, and TensorBoard.
