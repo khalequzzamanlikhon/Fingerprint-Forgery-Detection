@@ -1,0 +1,9 @@
+numpy
+opencv-python
+scikit-image
+ultralytics
+matplotlib
+seaborn
+tqdm
+tensorboard
+torch
