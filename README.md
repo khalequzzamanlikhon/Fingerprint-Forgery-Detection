@@ -58,7 +58,7 @@ Place it in data/socofing/ or update DATA_DIR in main.py to point to your datase
 
 8. ** Run the full pipeline**: In the terminal run
    ``` bash
-   python main.py .
+   python main.py
 you can monitor the training progress using 
     ``` bash
     
@@ -79,7 +79,7 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. 
 
 ## Acknowledgements
-- SOCOFing Dataset for providing fingerprint images.
+- [SOCOFing](https://www.kaggle.com/datasets/ruizgara/socofing)Dataset for providing fingerprint images.
 - Ultralytics YOLO for the YOLOv11 implementation.
 - Kaggle for providing the T4x2 GPU environment for training.
 - Open-source libraries: OpenCV, scikit-image, Matplotlib, Seaborn, and TensorBoard.
