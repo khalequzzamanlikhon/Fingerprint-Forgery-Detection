@@ -22,7 +22,7 @@ The project aims to analyze fingerprints by:
 3. **Visualizing Results**: Displays minutiae points (terminations in blue, bifurcations in red) and YOLO predictions with confidence scores.
 4. **Monitoring Training**: Logs training metrics to TensorBoard for visualization of loss, accuracy, and other metrics.
 
-The pipeline is optimized for Kaggle’s T4x2 GPU environment but can be run locally with appropriate hardware.
+The pipeline is optimized for Kaggle’s T4x2 GPU (Tesla T4) environment but can be run locally with appropriate hardware.
 
 ## Features
 - **Minutiae Extraction**: Detects fingerprint features (terminations and bifurcations) using skeletonization and morphological operations.
