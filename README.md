@@ -48,13 +48,14 @@ The dataset should be placed in a directory (e.g., `data/socofing/`) with `Real/
    cd fingerprint-analysis
 
 2. **Set Up a Virtual Environment (recommended)**
+   ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. **Install Dependencies**: pip install -r requirements.txt
-4. **Prepare the Dataset**:
+4. **Install Dependencies**: pip install -r requirements.txt
+5. **Prepare the Dataset**:
 Download the SOCOFing dataset from Kaggle.
 Place it in data/socofing/ or update DATA_DIR in main.py to point to your dataset location.
-5. ** Run the full pipeline**: In the terminal run : python main.py . you can monitor the training progress using : tensorboard --logdir logs/runs
+6. ** Run the full pipeline**: In the terminal run : python main.py . you can monitor the training progress using : tensorboard --logdir logs/runs
 
 
 Contributing
