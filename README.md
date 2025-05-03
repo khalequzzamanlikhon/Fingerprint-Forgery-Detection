@@ -79,7 +79,8 @@ you can monitor the training progress using
     
     tensorboard --logdir logs/runs
 
-## Results: To get overview for the model's capability, here is the confusion metrics
+## Results
+To get an overview of the model's capability, here is the confusion metrics
 <p align="center">
   <img src="images/cm.PNG" alt="confusion matrix" width="400"/>
   <br/>
