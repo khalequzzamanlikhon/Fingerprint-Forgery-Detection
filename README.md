@@ -2,8 +2,23 @@
 
 This project performs fingerprint analysis using the [SOCOFing dataset](https://www.kaggle.com/datasets/ruizgara/socofing). It combines **minutiae extraction** for detailed fingerprint feature analysis with **YOLOv11-based classification** to distinguish between real and fake fingerprints. The project is implemented in Python and leverages libraries like Ultralytics YOLO, OpenCV, and scikit-image.
 
-![Example Output](https://via.placeholder.com/600x300.png?text=Minutiae+Extraction+and+YOLO+Prediction)  
-*Example output showing minutiae extraction (left) and YOLOv11 classification (right).*
+Sample output images
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/minutae.PNG" alt="minutiae image" width="300"/><br/>
+      <b>Minutiae Extraction</b>
+    </td>
+    <td style="width: 60px;"></td> <!-- spacer column -->
+    <td style="text-align:center;">
+      <img src="images/fake-detection.PNG" alt="fake detection" width="300"/><br/>
+      <b>Fake Detection Output</b>
+    </td>
+  </tr>
+</table>
+
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -64,7 +79,13 @@ you can monitor the training progress using
     
     tensorboard --logdir logs/runs
 
-## Results
+## Results: To get overview for the model's capability, here is the confusion metrics
+<p align="center">
+  <img src="images/cm.PNG" alt="confusion matrix" width="400"/>
+  <br/>
+  <b>Confusion Matrix</b>
+</p>
+
 
 ## Contributing
 Contributions are welcome! To contribute:
