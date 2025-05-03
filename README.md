@@ -42,7 +42,7 @@ The dataset should be placed in a directory (e.g., `data/socofing/`) with `Real/
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/fingerprint-analysis.git
+   git clone https://github.com/khalequzzamanlikhon/Fingerprint-Forgery-Detection.git
    cd fingerprint-analysis
 
 2. **Set Up a Virtual Environment (recommended)**
