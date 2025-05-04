@@ -55,6 +55,7 @@ The project uses the [SOCOFing dataset](https://www.kaggle.com/datasets/ruizgara
 The dataset should be placed in a directory (e.g., `data/socofing/`) with `Real/` and `Altered/` subdirectories.
 
 ## Installation
+**NOTE**: As I have done this project in Kaggle, before running on your local machine, modify the paths according to your project directory. you can also go to the dataset link -> create notebook-> take all the (.py) file contents from here into that notebook file and run each cell.
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/khalequzzamanlikhon/Fingerprint-Forgery-Detection.git
